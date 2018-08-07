@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="currency" translate="label" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+            <tab>general</tab>
+            <group id="fixerio" sortOrder="35" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="api_key" translate="label,comment" type="text" sortOrder="0" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Api key</label>
+                    <comment><![CDATA[New updated API now requires an access key and a new URL.]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
